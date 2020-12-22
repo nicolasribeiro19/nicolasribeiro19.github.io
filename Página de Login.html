@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Página de Login</title>
+        <link rel="stylesheet" href="css/login.css">
+        <script src="js/acesso.js"></script>
+    </head>
+    <body>
+        <div class="formulario">
+            <div class="caixa-login">
+                <div class="caixa-topo">
+                    <img class="imagem-login" src="img/usuario.png">
+                    <h2 class="titulo">Login</h2>
+                    <p>Entre com seu Login</p>
+                </div>
+
+                <div class="caixa-body">
+                    <label>Usuário</label>
+                    <input type="usuario" id="usuario" name="usuario" placeholder="Digite seu Usuário" required>
+                </div>
+
+                <div class="caixa-body">
+                    <label>Senha</label>
+                    <input type="password" id="senha" name="senha" placeholder="Digite sua Senha" required>
+                </div>
+
+                <div class="caixa-body">
+                    <label><input type="checkbox">Lembre de mim</label>
+                </div>
+
+                <div class="caixa-body botao">
+                    <button onclick="acessar()">Acessar</button>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="rodape">
+            <p>@Copyright Nícolas Ribeiro 2020<br>
+                Website desenvolvido na disciplina de CPW do curso de Ciência da Computação.</p>
+        </div>
+    </body>
+</html>

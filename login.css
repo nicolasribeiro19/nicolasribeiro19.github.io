@@ -1,0 +1,62 @@
+body{
+    background-color: #EAEDED;
+    font-family: 'Times New Roman', Times, serif;
+}
+.caixa-login{
+    box-shadow: 1px 1px 5px #ccc;
+    background-color: white;
+    padding: 40px;
+    border-radius: 5px;
+}
+.formulario{
+    width: 500px;
+    margin: auto;
+    padding-top: 50px;
+}
+.caixa-topo{
+    text-align: center;
+}
+.imagem-login{
+    border-radius: 50px;
+    width: 100px;
+    box-shadow: 1px 1px 5px #ccc;
+}
+.titulo{
+    color: #E59866;
+}
+.caixa-body > label{
+    width: 150px;
+    color: #797D7F;
+    display: block;
+}
+.caixa-body > input{
+    border-radius: 5px;
+    outline: 0;
+    width: 100%;
+    height: 25px;
+    padding: 5px;
+}
+
+.caixa-body{
+    margin-bottom: 15px;
+}
+
+.caixa-body > button{
+    background-image: linear-gradient(to right, #E59866, #F5B041, #E67E22);
+    width: 100%;
+    border-radius: 35px;
+    padding: 20px;
+    color: white;
+    border: 0px;
+    outline: 0;
+}
+
+.botao button:hover{
+    background-image: linear-gradient(to right, #E67E22, #F5B041, #E59866);
+}
+.rodape{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: oblique;
+    font-size: 14px;
+}

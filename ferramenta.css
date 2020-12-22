@@ -1,0 +1,39 @@
+body{
+    background-color: #EAEDED;
+    font-family: 'Times New Roman', Times, serif;
+}
+.botao{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.btn-red{
+    background-color: red;
+    color: white;
+    box-shadow: 0 5px 0 #8b0000;
+}
+.btn-purple{
+    background-color: purple;
+    color: white;
+    box-shadow: 0 5px 0 palevioletred;
+}
+.btn-coral{
+    background-color: coral;
+    color: white;
+    box-shadow: 0 5px 0 coral;
+}
+.btn-gold{
+    background-color: darkgoldenrod;
+    color: white;
+    box-shadow: 0 5px 0 darkgoldenrod;
+}
+.rodape{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: oblique;
+    font-size: 14px;
+}
